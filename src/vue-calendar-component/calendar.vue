@@ -291,13 +291,14 @@ export default {
           this.$emit("choseDay", nowTime);
           this.historyChose.push(nowTime);
           k.chooseDay = true;
-        } else if (
-          this.historyChose[this.historyChose.length - 1] === nowTime &&
-          !chooseDay &&
-          flag
-        ) {
-          k.chooseDay = true;
         }
+        // else if (
+        //   this.historyChose[this.historyChose.length - 1] === nowTime &&
+        //   !chooseDay &&
+        //   flag
+        // ) {
+        //   k.chooseDay = true;
+        // }
       }
       this.list = arr;
     }
