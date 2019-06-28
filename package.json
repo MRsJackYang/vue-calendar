@@ -1,10 +1,9 @@
 {
-  "name": "vue-demo",
+  "name": "vue-calendar-pro",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "wh   git push origin master:gh-pages",
   "private": false,
-
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
